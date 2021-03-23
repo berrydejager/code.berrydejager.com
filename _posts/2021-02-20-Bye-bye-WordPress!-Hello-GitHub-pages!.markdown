@@ -28,7 +28,7 @@ Admin page | $false | $true
 
 In this blog I use a Windows based tool chain, as this is the least steep learning curve, IMHO.
 
-*	Microssoft Windows 10
+*	Microsoft Windows 10
 *	[Ruby+Devkit 2.7.x (x64)](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.2-1/rubyinstaller-devkit-2.7.2-1-x64.exe)
 *	[GitHub Desktop](https://central.github.com/deployments/desktop/desktop/latest/win32)
 *	[Microsoft Visual Studio Code](https://code.visualstudio.com/docs/?dv=win)
@@ -67,7 +67,7 @@ When you create a repository on GitHub, it exists as a remote repository. You ca
 5.	Start a new ```cmd.exe``` to ensure that the environment variables are freshly loaded.
 6.  start ```gem install jekyll bundler``` on the command line interface 
 7.	If needed install the missing/required gems using the command: 
-	```gem install minitest tzinfo zeitwerrk activesupport gemoji nokogiri html-pipeline jekyll-paginate jekyll-sitemap jemoji racc rexml``` 
+	```gem install minitest tzinfo zeitwerk activesupport gemoji nokogiri html-pipeline jekyll-paginate jekyll-sitemap jemoji racc rexml``` 
 
 	TZInfo 2.0 incompatibility
 
@@ -135,6 +135,6 @@ You can see the status at [activity log](https://github.com/berrydejager/code/de
 You can either make a (dummy) change in the repo and push it to GitHub.com or either push an empty commit on the command line.
 
 ``` 
-git commit --allow-empty -m "Emtpy commit to trigger GitHub Pages to build"
+git commit --allow-empty -m "Empty commit to trigger GitHub Pages to build"
 git push
 ```
