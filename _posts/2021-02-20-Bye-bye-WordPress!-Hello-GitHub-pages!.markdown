@@ -85,6 +85,10 @@ Start the Jekyll in webserver mode
 
 ```jekyll serve -s .```
 
+When hitting a ```GemNotFound``` error please run the bundler update
+
+```bundle update```
+
 Start a web browser for [http://127.0.0.1:4000](http://127.0.0.1:4000)
 
 Now you can easily modify the website and the subsequent markdown files to your liking prior to uploading it to your GitHub repository.
