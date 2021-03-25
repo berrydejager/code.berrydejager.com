@@ -18,10 +18,15 @@ Running the KMS daemon on Ubuntu Server can be handy for home lab testing purpos
 The easiest way to download is through Github. I also renamed the binary to just vlmcsd to make it simpler and copied it to ```usr/local/bin```:
 
 ### Download and execute the binary file
-```wget https://github.com/kkkgo/vlmcsd/raw/master/binaries/Linux/intel/static/vlmcsd-x64-musl-static
+```
+wget https://github.com/kkkgo/vlmcsd/raw/master/binaries/Linux/intel/static/vlmcsd-x64-musl-static
+
 mv vlmcsd-x64-musl-static vlmcsd
+
 sudo cp vlmcsd /usr/local/bin
-sudo chmod +x /usr/local/bin/vlmcsd```
+
+sudo chmod +x /usr/local/bin/vlmcsd
+```
 
 
 ### Create a service account
