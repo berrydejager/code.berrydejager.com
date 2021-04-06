@@ -19,7 +19,7 @@ social-linkedin: berrydejager.com # add your Linkedin handle
 social-email: code@berrydejager.com # add your Email address
 
 # Disqus
-discus-identifier: code-berrydejager-com # add your discus identifier
+discus-identifier: #code-berrydejager-com # add your discus identifier
 
 # Tracker
 analytics: UA-190232947-1  # Google Analytics
