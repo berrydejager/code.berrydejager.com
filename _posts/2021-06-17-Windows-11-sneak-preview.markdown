@@ -49,11 +49,9 @@ Looking at the release cycle for the Windows Operation System, you will notice t
 
 The manual installing procedure is very similar to the Windows 10 procedure, however Windows 11 sports a more modern look, shows the OS-type date modified at "30th May 2021" and the license is updated in "June 2021". It seems that this Windows 11 was already for some while in the pipeline. 
 
-[![](/assets/img/Window_11_sneak_preview_img00_t.jpg)](/assets/img/Window_11_sneak_preview_img00.png){:target="_blank"}
+[![](/assets/img/Window_11_sneak_preview_img00_t.jpg)](/assets/img/Window_11_sneak_preview_img00.png){:target="_blank"} [![](/assets/img/Window_11_sneak_preview_img01_t.jpg)](/assets/img/Window_11_sneak_preview_img01.png){:target="_blank"}
 
-The Adobe Flash Player License is removed from the license.
-
-[![](/assets/img/Window_11_sneak_preview_img01_t.jpg)](/assets/img/Window_11_sneak_preview_img01.png){:target="_blank"}
+### Limiting experience
 
 The "limited experience" offering, which is great for experimenting with the OS, is now hidden away under "sign-in options" during the installation phase.
 
@@ -62,6 +60,8 @@ The "limited experience" offering, which is great for experimenting with the OS,
 Even the "This might take a few minutes"-screen has been animatified. You can actually skip this part by CTRL-ALT-DEL key combo and start the taskmanager, this will start the explorer.exe and you'll know what happens...
 
 [![](/assets/img/Window_11_sneak_preview_img07_t.jpg)](/assets/img/Window_11_sneak_preview_img07.png){:target="_blank"}
+
+This always makes me think of the ["Impossible Mission" on the C-64](https://youtu.be/ivHFP3dJAkM?t=18).
 
 ### Windows 11 Activation
 
