@@ -129,6 +129,15 @@ Version used: [Citrix Optimizer - v2.8.0.143](https://support.citrix.com/article
 
 Also for applying Citrix Optimizer to Windows 11 you need a specific Windows 11 template, which isn't available now/yet. Therefor I selected the current 'Windows 10 version 20H2 (2009) from Citrix" from the Citrix Optimizers' interface.
 
+One of the Citrix Optimisations is removing "Microsoft.DesktopAppInstaller" built-in app. This didn't go very well Windows 11
+
+    Microsoft.DesktopAppInstaller   Not Optimized
+    Details: Failed to remove UWP app with following error: Removal failed. Please contact your software vendor.
+
+    Module type: UWP
+
+    - Name: Microsoft.DesktopAppInstaller
+
 #### Comparing W10 (21H1) to W11
 
 | Setting in Citrix Optimizer | Windows 10 (21H1) | Windows 11 (Dev) |
