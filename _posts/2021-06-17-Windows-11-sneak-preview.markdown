@@ -8,13 +8,15 @@ tags: [Windows, Windows 11, W11] # add tag
 ---
 # "Windows 10 is the last version of windows...", ohh sure...
 
-You might recall Satya Nadella, CEO and chairm,an of Microsoft, saying "Windows 10 is the last version of Windows". He didn't mention that it will be the final version of Windows that Microsoft will produce. The next generation of Windows is about to be revealed.
+You might recall Satya Nadella, CEO and chairm,an of Microsoft, saying "Windows 10 is the last version of Windows". He didn't mention that it will be the final version of Windows that Microsoft will produce. The next generation of Windows is about to be revealed at the [#MicrosoftEvent](https://www.microsoft.com/en-us/windows/event) on the 24th of June 2021 at 11:00  Eastern Time. Click [here](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWFdr0) for the reminder.
 
-Verdict: `INSERT VERDICT`
+Verdict: As far as i can see it's a little more than just dressing up the Windows 10 interface.
 
 ## Brief history
 
 Looking at the release cycle for the Windows Operation System, you will notice that the interval of the versions graduately increases. This has to do with the servicing updates and feature releases methodology that Microsoft embraces. We can only guess how long Windows 11 will last.
+
+ The support lifecycle date of Windows 10 listed a 10-year support lifecycle.
 
 | Year | Release |
 | --- | --- | 
@@ -43,6 +45,15 @@ The "limited experience" offering, which is great for experimenting with the OS,
 
 ## UI/UX changes
 
+### Overal redesign
+
+A brand new logo, by unskewing the Windows 10 logo to a square format, gets my eyes a little watery; Is this the real life? Is this just fantasy? It certainly looks more contemporary and elegant to me.
+
+Shiny news icons, rounded corners, thin sliders and new animations are part of the design overhaul.
+
+The OOBE also sports a new look. Not that is that important in a VDI world, `unattended.xml` and Autopilot are our friends. Most likely the ADK and unattend.xml will not change that much.
+### Taskbar / Start menu
+
 The most prominent change to the user interface is the taskbar/start menu. This is now "Maccyfied" into the center of the screen.
 
 For altering the taskbar settings you need to activate the Windows installation, see section "Windows 11 Activation" below.
@@ -59,15 +70,18 @@ When the changes of the start menu can't seem to fit in your workflow you can st
 | --- | --- | --- |
 | Start_ShowClassicMode | REG_DWORD | 0x00000001 (1) |
 
+As this setting resides in the current user context of the Explorer UI, you need to log off and logon again to see the changes. Restarting the `explorer.exe` will also do the trick.
+
 
 ## Windows 11 Activation
 
 You can still use your KMS server to activate the Windows 11 version, while using the Windows 10 KMS keys. 
 
-
-
 ## Windows SBC/VDI optimisation
 
+### VMware OSOT
+
+### Citrix Optimizer
 
 ## Details of used Windows 11 .ISO file
 
