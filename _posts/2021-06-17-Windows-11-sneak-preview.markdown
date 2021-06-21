@@ -70,6 +70,8 @@ Shiny news icons, rounded corners, thin sliders and new animations are part of t
 The OOBE also sports a new look. Not that is that important in a VDI world, `unattended.xml` and Autopilot are our friends. Most likely the ADK and unattend.xml will not change that much.
 ### Taskbar / Start menu
 
+[![](/assets/img/Window_11_sneak_preview_img00_t.jpg)](/assets/img/Window_11_sneak_preview_img00.png){:target="_blank"}
+
 The most prominent change to the user interface is the taskbar/start menu. This is now "Maccyfied" into the center of the screen.
 
 For altering the taskbar settings you need to activate the Windows installation, see section "Windows 11 Activation" below.
