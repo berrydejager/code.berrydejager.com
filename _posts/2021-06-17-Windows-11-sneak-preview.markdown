@@ -14,7 +14,9 @@ The next generation of Windows is about to be revealed at the [#MicrosoftEvent](
 
 # My conclusion 
 
-The verdict: As far as i can see it's a little more than just dressing up the Windows 10 interface visually. The interface of the operation system needs to compete with itself and other OS's to stay relevant in a designers world and at the same time it needs to be enticing for the end-user. Having this said the OSOT tool shows some minor differences, details belows.
+The verdict: As far as i can see it's a little more than just dressing up the Windows 10 interface visually. The interface of the operation system needs to compete with itself and other OS's to stay relevant in a designers world and at the same time it needs to be enticing for the end-user. 
+
+Having this said the VMware and Citrix OS optimalisation tools show some minor differences, see details below. To me it seems that the VMWare OSOT tool is more services focussed and Citrix Optimizer is more application oriented. Finding the right balance is just a matter of preference and trail and error.
 
 ## Brief history
 
@@ -53,7 +55,7 @@ You can still use your KMS server to activate the Windows 11 version, while usin
 
 ### Intune / Autopilot
 
-Deploying using Intune / Autopilot also worked. Having that said; Windows 11 reported itself with an OS version `10.0.21996.1`. Is it that the Windows 10 has been skinned or the version number need to be updated, who knows?
+Deploying using Intune / Autopilot also worked. Having that said; Windows 11 reported itself with an OS version `10.0.21996.1`. Is it that the Windows 10 has been skinned and the version number need to be updated, who knows?
 
 ## UI/UX changes
 
@@ -86,38 +88,25 @@ When the changes of the start menu can't seem to fit in your workflow you can st
 
 As this setting resides in the current user context of the Explorer UI, you need to log off and logon again to see the changes. Restarting the `explorer.exe` will also do the trick.
 
-## Windows SBC/VDI optimisation
+## Windows OS optimisation
 
 ### VMware OSOT
 
 The [VMware OS Optimization Tool](https://flings.vmware.com/vmware-os-optimization-tool) helps in preparing and optimizing Windows 10 and Windows Server 2019, 2016 systems for use with VMware Horizon. For Windows 7, 8.1, and Server 2012, 2012 R2, an older version (b1130) of the OS Optimization Tool is available for download.
 
-### Summary
-
 At a high level, the process of creating a golden image VM consists of the following steps. A a step by step walk-through of the complete process, is given in the [Creating an Optimized Windows Image for a VMware Horizon Virtual Desktop](https://techzone.vmware.com/creating-optimized-windows-image-vmware-horizon-virtual-desktop) guide.
 
-*   [Optimize](https://techzone.vmware.com/resource/vmware-operating-system-optimization-tool-guide#optimize) – Analyze, select optimizations, and apply them to the Windows image.
-    *   Analyze - compares the settings of the template against the machine settings.
-    *    Common Options - quickly and easily choose and set preferences to control common functionality.
-    *   Optimize - applies the chosen selections.
-*   [Generalize](https://techzone.vmware.com/resource/vmware-operating-system-optimization-tool-guide#generalize) - helps in running the system preparation tool (Sysprep) by generating a customizable and editable unattend answer file.
-*   [Finalize](https://techzone.vmware.com/resource/vmware-operating-system-optimization-tool-guide#finalize) - automate and help with some of the common clean up tasks that are typically run just before using the prepared image.
-*   [Update](https://techzone.vmware.com/resource/vmware-operating-system-optimization-tool-guide#update) - re-enable Windows Update functionality on an image that has previously been optimized and had this disabled.
-
-For more information on how to use the OS Optimization Tool see the [VMware Operating System Optimization Tool Guide](https://techzone.vmware.com/resource/vmware-operating-system-optimization-tool-guide#introduction
-).
-
-### Applying OSOT
+#### Applying OSOT
 
 Version used: [VMware OSOT, version B2003 - 20th April 2021](https://techzone.vmware.com/resource/vmware-operating-system-optimization-tool-guide#update) 
 
-For applying OSOT to Windows 11 we need a specific Windows 11 template, which isn't available now/yet. Therefor we just select the current 'Windows 10 and Server 2016 or later (v1.8)' template, published by VMware, available from the interface.
+For applying OSOT to Windows 11 you need a specific Windows 11 template, which isn't available now/yet. Therefor I just selected the current 'Windows 10 and Server 2016 or later (v1.8)' template, published by VMware, available from the interface.
 
-### Comparing W10 (21H1) to W11
+#### Comparing W10 (21H1) to W11
 
 While comparing the OSOT analysis reports from an updated Windows 10 (21H1) against the Windows 11 Dev release I noticed some differences.
 
-| Setting | Expected result | Windows 10 (21H1) | Windows 11 (Dev) |
+| Setting in OSOT | Expected result | Windows 10 (21H1) | Windows 11 (Dev) |
 | --- | --- | --- | --- | 
 | Turn off hard disk after | 1 | N.A | 2 | 
 | Disable Setup Cleanup Task | Disabled | Disabled | Enabled |
@@ -132,6 +121,25 @@ While comparing the OSOT analysis reports from an updated Windows 10 (21H1) agai
 
 ### Citrix Optimizer
 
+[Citrix optimizer](https://www.citrix.com/blogs/2020/10/13/tm-everything-you-wanted-to-know-about-citrix-optimizer-part-1/) optimizes user environments for better performance. It runs a quick scan of user environments and then applies template-based optimization recommendations. 
+
+#### Applying Citrix Optimizer 
+
+Version used: [Citrix Optimizer - v2.8.0.143](https://support.citrix.com/article/CTX224676)
+
+Also for applying Citrix Optimizer to Windows 11 you need a specific Windows 11 template, which isn't available now/yet. Therefor I selected the current 'Windows 10 version 20H2 (2009) from Citrix" from the Citrix Optimizers' interface.
+
+#### Comparing W10 (21H1) to W11
+
+| Setting in Citrix Optimizer | Windows 10 (21H1) | Windows 11 (Dev) |
+| --- | --- | --- | 
+| Microsoft.Microsoft3DViewer | Not Optimized, UWP app is installed | Optimized, UWP app is not installed |
+| Microsoft.MixedReality.Portal | Not Optimized, UWP app is installed | Optimized, UWP app is not installed |
+| Microsoft.Office.OneNote | Not Optimized, UWP app is installed | Optimized, UWP app is not installed |
+| Microsoft.SkypeApp | Not Optimized, UWP app is installed | Optimized, UWP app is not installed |
+| Microsoft.Wallet  | Not Optimized, UWP app is installed | Optimized, UWP app is not installed |
+| Microsoft.XboxApp | Not Optimized, UWP app is installed | Optimized, UWP app is not installed |
+| Mobile Broadband Accounts | Not Optimized, Scheduled Task is not in Disabled state | Optimized, Scheduled task does not exist |
 ## Details of used Windows 11 .ISO file
 
 | Name | Description |
