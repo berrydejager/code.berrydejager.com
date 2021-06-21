@@ -16,6 +16,8 @@ The next generation of Windows is about to be revealed at the [#MicrosoftEvent](
 
 The verdict: As far as i can see it's a little more than just dressing up the Windows 10 interface visually. The interface of the operation system needs to compete with itself and other OS's to stay relevant in a designers world and at the same time it needs to be enticing for the end-user. 
 
+[![](/assets/img/Window_11_sneak_preview_img10_t.jpg)](/assets/img/Window_11_sneak_preview_img10.png){:target="_blank"}
+
 Having this said the VMware and Citrix OS optimalisation tools show some minor differences, see details below. To me it seems that the VMWare OSOT tool is more services focussed and Citrix Optimizer is more application oriented. Finding the right balance is just a matter of preference and trail and error.
 
 ## Brief history
@@ -45,9 +47,25 @@ Looking at the release cycle for the Windows Operation System, you will notice t
 
 ## Installing Windows 11
 
-The manual installing procedure is very similar to the Windows 10 procedure, however Windows 11 sports a more modern look, shows the OS-type date modified at "30th May 2021" and the license is updated in "June 2021". It seems that this Windows 11 was already for some while in the pipeline. The Adobe Flash Player License is removed from the license.
+The manual installing procedure is very similar to the Windows 10 procedure, however Windows 11 sports a more modern look, shows the OS-type date modified at "30th May 2021" and the license is updated in "June 2021". It seems that this Windows 11 was already for some while in the pipeline. 
+
+[![](/assets/img/Window_11_sneak_preview_img00_t.jpg)](/assets/img/Window_11_sneak_preview_img00.png){:target="_blank"}
+
+The Adobe Flash Player License is removed from the license.
+
+[![](/assets/img/Window_11_sneak_preview_img01_t.jpg)](/assets/img/Window_11_sneak_preview_img01.png){:target="_blank"}
 
 The "limited experience" offering, which is great for experimenting with the OS, is now hidden away under "sign-in options" during the installation phase.
+
+[![](/assets/img/Window_11_sneak_preview_img04_t.jpg)](/assets/img/Window_11_sneak_preview_img04.png){:target="_blank"}
+
+[![](/assets/img/Window_11_sneak_preview_img05_t.jpg)](/assets/img/Window_11_sneak_preview_img05.png){:target="_blank"}
+
+[![](/assets/img/Window_11_sneak_preview_img06_t.jpg)](/assets/img/Window_11_sneak_preview_img06.png){:target="_blank"}
+
+Even the "This might take a few minutes"-screen has been animatified. You can actually skip this part by CTRL-ALT-DEL key combo and start the taskmanager, this will start the explorer.exe and you'll know what happens...
+
+[![](/assets/img/Window_11_sneak_preview_img07_t.jpg)](/assets/img/Window_11_sneak_preview_img07.png){:target="_blank"}
 
 ### Windows 11 Activation
 
@@ -63,7 +81,11 @@ The version tested showed "Version Dev (OS Build 21996.1)".
 
 ### Overal re-design
 
+[![](/assets/img/Window_11_sneak_preview_img02_t.jpg)](/assets/img/Window_11_sneak_preview_img02.png){:target="_blank"}
+
 A brand new logo, by unskewing the Windows 10 logo to a square format, gets my eyes a little watery; Is this the real life? Is this just fantasy? It certainly looks more contemporary and elegant to me.
+
+[![](/assets/img/Window_11_sneak_preview_img03_t.jpg)](/assets/img/Window_11_sneak_preview_img03.png){:target="_blank"}
 
 Shiny news icons, rounded corners, thin sliders and new animations are part of the design overhaul.
 
@@ -72,11 +94,14 @@ The OOBE also sports a new look. Not that is that important in a VDI world, `una
 
 The most prominent change to the user interface is the taskbar/start menu. This is now "Maccyfied" into the center of the screen.
 
+[![](/assets/img/Window_11_sneak_preview_img08_t.jpg)](/assets/img/Window_11_sneak_preview_img08.png){:target="_blank"}
+
 For altering the taskbar settings you need to activate the Windows installation, see section "Windows 11 Activation" below.
 
-[![Taskbar / Start menu](/assets/img/Window_11_sneak_preview_img00_t.jpg)](/assets/img/Window_11_sneak_preview_img00.png){:target="_blank"}
-
 The taskbar/start menu is still able to move to it's old place by setting the "Taskbar alignment" from `center` to `left`. Actually this whole taskbar menu has been changed quite a bit.
+
+[![](/assets/img/Window_11_sneak_preview_img09_t.jpg)](/assets/img/Window_11_sneak_preview_img09.png){:target="_blank"}
+
 
 Besides the taskbar the start menu also has changed.
 
