@@ -102,7 +102,7 @@ Version used: [VMware OSOT, version B2003 - 20th April 2021](https://techzone.vm
 
 For applying OSOT to Windows 11 you need a specific Windows 11 template, which isn't available now/yet. Therefor I just selected the current 'Windows 10 and Server 2016 or later (v1.8)' template, published by VMware, available from the interface.
 
-#### Comparing W10 (21H1) to W11
+#### Comparing OSOT results: Windows 10 (21H1) against Windows 11 (Dev)
 
 While comparing the OSOT analysis reports from an updated Windows 10 (21H1) against the Windows 11 Dev release I noticed some differences.
 
@@ -138,7 +138,7 @@ One of the Citrix Optimisations is removing "Microsoft.DesktopAppInstaller" buil
 
     - Name: Microsoft.DesktopAppInstaller
 
-#### Comparing W10 (21H1) to W11
+#### Comparing the Citrix Optimizer results: Windows 10 (21H1) against Windows 11 (Dev)
 
 | Setting in Citrix Optimizer | Windows 10 (21H1) | Windows 11 (Dev) |
 | --- | --- | --- |
