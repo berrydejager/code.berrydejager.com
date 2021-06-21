@@ -86,6 +86,30 @@ As this setting resides in the current user context of the Explorer UI, you need
 
 ### VMware OSOT
 
+The [VMware OS Optimization Tool](https://flings.vmware.com/vmware-os-optimization-tool) helps in preparing and optimizing Windows 10 and Windows Server 2019, 2016 systems for use with VMware Horizon. For Windows 7, 8.1, and Server 2012, 2012 R2, an older version (b1130) of the OS Optimization Tool is available for download.
+
+### Summary
+
+At a high level, the process of creating a golden image VM consists of the following steps. A a step by step walk-through of the complete process, is given in the [Creating an Optimized Windows Image for a VMware Horizon Virtual Desktop](https://techzone.vmware.com/creating-optimized-windows-image-vmware-horizon-virtual-desktop) guide.
+
+*   [Optimize](https://techzone.vmware.com/resource/vmware-operating-system-optimization-tool-guide#optimize) – Analyze, select optimizations, and apply them to the Windows image.
+    *   Analyze - compares the settings of the template against the machine settings.
+    *    Common Options - quickly and easily choose and set preferences to control common functionality.
+    *   Optimize - applies the chosen selections.
+*   [Generalize](https://techzone.vmware.com/resource/vmware-operating-system-optimization-tool-guide#generalize) - helps in running the system preparation tool (Sysprep) by generating a customizable and editable unattend answer file.
+*   [Finalize](https://techzone.vmware.com/resource/vmware-operating-system-optimization-tool-guide#finalize) - automate and help with some of the common clean up tasks that are typically run just before using the prepared image.
+*   [Update](https://techzone.vmware.com/resource/vmware-operating-system-optimization-tool-guide#update) - re-enable Windows Update functionality on an image that has previously been optimized and had this disabled.
+
+For more information on how to use the OS Optimization Tool see the [VMware Operating System Optimization Tool Guide](https://techzone.vmware.com/resource/vmware-operating-system-optimization-tool-guide#introduction
+).
+
+### Applying OSOT
+
+Version used: [VMware OSOT, version B2003 - 20th April 2021](https://techzone.vmware.com/resource/vmware-operating-system-optimization-tool-guide#update) 
+
+For applying OSOT to Windows 11 we need a specific Windows 11 template, which isn't available now/yet. Therefor we just select the current 'Windows 10 and Server 2016 or later (v1.8)' template, published by VMware, available from the interface.
+
+
 ### Citrix Optimizer
 
 ## Details of used Windows 11 .ISO file
