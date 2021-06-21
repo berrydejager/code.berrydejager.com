@@ -57,11 +57,7 @@ The Adobe Flash Player License is removed from the license.
 
 The "limited experience" offering, which is great for experimenting with the OS, is now hidden away under "sign-in options" during the installation phase.
 
-[![](/assets/img/Window_11_sneak_preview_img04_t.jpg)](/assets/img/Window_11_sneak_preview_img04.png){:target="_blank"}
-
-[![](/assets/img/Window_11_sneak_preview_img05_t.jpg)](/assets/img/Window_11_sneak_preview_img05.png){:target="_blank"}
-
-[![](/assets/img/Window_11_sneak_preview_img06_t.jpg)](/assets/img/Window_11_sneak_preview_img06.png){:target="_blank"}
+[![](/assets/img/Window_11_sneak_preview_img04_t.jpg)](/assets/img/Window_11_sneak_preview_img04.png){:target="_blank"} [![](/assets/img/Window_11_sneak_preview_img05_t.jpg)](/assets/img/Window_11_sneak_preview_img05.png){:target="_blank"} [![](/assets/img/Window_11_sneak_preview_img06_t.jpg)](/assets/img/Window_11_sneak_preview_img06.png){:target="_blank"}
 
 Even the "This might take a few minutes"-screen has been animatified. You can actually skip this part by CTRL-ALT-DEL key combo and start the taskmanager, this will start the explorer.exe and you'll know what happens...
 
