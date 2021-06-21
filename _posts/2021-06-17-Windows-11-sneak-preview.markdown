@@ -8,13 +8,17 @@ tags: [Windows, Windows 11, W11] # add tag
 ---
 # "Windows 10 is the last version of windows...", ohh sure...
 
-You might recall Satya Nadella, CEO and chairm,an of Microsoft, saying "Windows 10 is the last version of Windows". He didn't mention that it will be the final version of Windows that Microsoft will produce. The next generation of Windows is about to be revealed at the [#MicrosoftEvent](https://www.microsoft.com/en-us/windows/event) on the 24th of June 2021 at 11:00  Eastern Time. Click [here](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWFdr0) for the reminder.
+You might recall Satya Nadella, CEO and chairman of Microsoft, saying "Windows 10 is the last version of Windows". He didn't mention that it will be the final version of Windows that Microsoft will produce.
+
+The next generation of Windows is about to be revealed at the [#MicrosoftEvent](https://www.microsoft.com/en-us/windows/event) on the 24th of June 2021 at 11:00  Eastern Time. Click [here](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWFdr0) for the reminder.
+
+# My conclusion 
 
 The verdict: As far as i can see it's a little more than just dressing up the Windows 10 interface visually. The interface of the operation system needs to compete with itself and other OS's to stay relevant in a designers world and at the same time it needs to be enticing for the end-user.
 
 ## Brief history
 
-Looking at the release cycle for the Windows Operation System, you will notice that the interval of the versions graduately increases. This has to do with the servicing updates and feature releases methodology that Microsoft embraces. We can only guess how long Windows 11 will last.
+Looking at the release cycle for the Windows Operation System, you will notice that the interval of the versions gradually increases. This has to do with the servicing updates and feature releases methodology that Microsoft embraces. Windows 10 Home and Pro have a retirement date set to 14th October 2025. As for the other variants we can only guess.
 
  The support lifecycle date of Windows 10 listed a 10-year support lifecycle.
 
