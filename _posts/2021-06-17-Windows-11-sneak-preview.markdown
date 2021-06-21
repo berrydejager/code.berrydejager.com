@@ -132,7 +132,7 @@ Also for applying Citrix Optimizer to Windows 11 you need a specific Windows 11 
 #### Comparing W10 (21H1) to W11
 
 | Setting in Citrix Optimizer | Windows 10 (21H1) | Windows 11 (Dev) |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Microsoft.Microsoft3DViewer | Not Optimized, UWP app is installed | Optimized, UWP app is not installed |
 | Microsoft.MixedReality.Portal | Not Optimized, UWP app is installed | Optimized, UWP app is not installed |
 | Microsoft.Office.OneNote | Not Optimized, UWP app is installed | Optimized, UWP app is not installed |
@@ -140,6 +140,7 @@ Also for applying Citrix Optimizer to Windows 11 you need a specific Windows 11 
 | Microsoft.Wallet  | Not Optimized, UWP app is installed | Optimized, UWP app is not installed |
 | Microsoft.XboxApp | Not Optimized, UWP app is installed | Optimized, UWP app is not installed |
 | Mobile Broadband Accounts | Not Optimized, Scheduled Task is not in Disabled state | Optimized, Scheduled task does not exist |
+
 ## Details of used Windows 11 .ISO file
 
 | Name | Description |
