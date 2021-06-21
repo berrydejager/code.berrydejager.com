@@ -10,7 +10,7 @@ tags: [Windows, Windows 11, W11] # add tag
 
 You might recall Satya Nadella, CEO and chairm,an of Microsoft, saying "Windows 10 is the last version of Windows". He didn't mention that it will be the final version of Windows that Microsoft will produce. The next generation of Windows is about to be revealed at the [#MicrosoftEvent](https://www.microsoft.com/en-us/windows/event) on the 24th of June 2021 at 11:00  Eastern Time. Click [here](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWFdr0) for the reminder.
 
-Verdict: As far as i can see it's a little more than just dressing up the Windows 10 interface.
+Verdict: As far as i can see it's a little more than just dressing up the Windows 10 interface visually.
 
 ## Brief history
 
@@ -43,9 +43,19 @@ The manual installing procedure is very similar to the Windows 10 procedure, how
 
 The "limited experience" offering, which is great for experimenting with the OS, is now hidden away under "sign-in options" during the installation phase.
 
+### Windows 11 Activation
+
+You can still use your KMS server to activate the Windows 11 version, while using the Windows 10 KMS keys.
+
+### Intune / Autopilot
+
+Deploying using Intune / Autopilot also worked. Having that said; Windows 11 reported itself with an OS version `10.0.21996.1`. Is it that the Windows 10 has been skinned or the version number need to be updated, who knows?
+
 ## UI/UX changes
 
-### Overal redesign
+The version tested showed "Version Dev (OS Build 21996.1)". 
+
+### Overal re-design
 
 A brand new logo, by unskewing the Windows 10 logo to a square format, gets my eyes a little watery; Is this the real life? Is this just fantasy? It certainly looks more contemporary and elegant to me.
 
@@ -71,11 +81,6 @@ When the changes of the start menu can't seem to fit in your workflow you can st
 | Start_ShowClassicMode | REG_DWORD | 0x00000001 (1) |
 
 As this setting resides in the current user context of the Explorer UI, you need to log off and logon again to see the changes. Restarting the `explorer.exe` will also do the trick.
-
-
-## Windows 11 Activation
-
-You can still use your KMS server to activate the Windows 11 version, while using the Windows 10 KMS keys. 
 
 ## Windows SBC/VDI optimisation
 
