@@ -69,7 +69,7 @@ Even the "This might take a few minutes"-screen has been animatified. You can ac
 
 ### Windows 11 Activation
 
-You can still use your KMS server to activate the Windows 11 version, while using the Windows 10 KMS keys.
+You can still use your KMS server to activate the Windows 11 version, while using the Windows 10 KMS keys. This is very handy at the time but may change in the RTM version.
 
 ### Intune / Autopilot
 
@@ -77,7 +77,7 @@ Deploying using Intune / Autopilot also worked. Having that said; Windows 11 rep
 
 ## UI/UX changes
 
-The version tested showed "Version Dev (OS Build 21996.1)". 
+The version of Windows 11 (Dev) tested showed up as "Version Dev (OS Build 21996.1)" when starting up `winver.exe`. 
 
 ### Overal re-design
 
@@ -85,9 +85,11 @@ The version tested showed "Version Dev (OS Build 21996.1)".
 
 A brand new logo, by unskewing the Windows 10 logo to a square format, gets my eyes a little watery; Is this the real life? Is this just fantasy? It certainly looks more contemporary and elegant to me.
 
-[![](/assets/img/Window_11_sneak_preview_img03_t.jpg)](/assets/img/Window_11_sneak_preview_img03.png){:target="_blank"}
+Shiny news icons, rounded corners, thin sliders and new animations are part of the design overhaul. 
 
-Shiny news icons, rounded corners, thin sliders and new animations are part of the design overhaul.
+Anyone got a handkerchief? 
+
+[![](/assets/img/Window_11_sneak_preview_img03_t.jpg)](/assets/img/Window_11_sneak_preview_img03.png){:target="_blank"}
 
 The OOBE also sports a new look. Not that is that important in a VDI world, `unattended.xml` and Autopilot are our friends. Most likely the ADK and unattend.xml will not change that much.
 ### Taskbar / Start menu
@@ -96,12 +98,11 @@ The most prominent change to the user interface is the taskbar/start menu. This 
 
 [![](/assets/img/Window_11_sneak_preview_img08_t.jpg)](/assets/img/Window_11_sneak_preview_img08.png){:target="_blank"}
 
-For altering the taskbar settings you need to activate the Windows installation, see section "Windows 11 Activation" below.
+For altering the taskbar settings you need to activate the Windows installation, see section "Windows 11 Activation" above.
 
 The taskbar/start menu is still able to move to it's old place by setting the "Taskbar alignment" from `center` to `left`. Actually this whole taskbar menu has been changed quite a bit.
 
 [![](/assets/img/Window_11_sneak_preview_img09_t.jpg)](/assets/img/Window_11_sneak_preview_img09.png){:target="_blank"}
-
 
 Besides the taskbar the start menu also has changed.
 
@@ -115,7 +116,7 @@ When the changes of the start menu can't seem to fit in your workflow you can st
 
 As this setting resides in the current user context of the Explorer UI, you need to log off and logon again to see the changes. Restarting the `explorer.exe` will also do the trick.
 
-## Windows OS optimisation
+## Windows OS optimisation using industry standard tooling
 
 ### VMware OSOT
 
