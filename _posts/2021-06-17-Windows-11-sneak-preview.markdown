@@ -61,7 +61,7 @@ Even the "This might take a few minutes"-screen has been animatified. You can ac
 
 [![](/assets/img/Window_11_sneak_preview_img07_t.jpg)](/assets/img/Window_11_sneak_preview_img07.png){:target="_blank"}
 
-This always makes me think of the ["Impossible Mission" on the C-64](https://youtu.be/ivHFP3dJAkM?t=18).
+This always makes me think of the [Impossible Mission](https://youtu.be/ivHFP3dJAkM?t=18) on the C-64.
 
 ### Windows 11 Activation
 
