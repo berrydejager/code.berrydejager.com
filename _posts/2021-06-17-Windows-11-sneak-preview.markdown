@@ -14,7 +14,7 @@ The next generation of Windows is about to be revealed at the [#MicrosoftEvent](
 
 # My conclusion 
 
-The verdict: As far as i can see it's a little more than just dressing up the Windows 10 interface visually. The interface of the operation system needs to compete with itself and other OS's to stay relevant in a designers world and at the same time it needs to be enticing for the end-user.
+The verdict: As far as i can see it's a little more than just dressing up the Windows 10 interface visually. The interface of the operation system needs to compete with itself and other OS's to stay relevant in a designers world and at the same time it needs to be enticing for the end-user. Having this said the OSOT tool shows some minor differences, details belows.
 
 ## Brief history
 
@@ -113,6 +113,22 @@ Version used: [VMware OSOT, version B2003 - 20th April 2021](https://techzone.vm
 
 For applying OSOT to Windows 11 we need a specific Windows 11 template, which isn't available now/yet. Therefor we just select the current 'Windows 10 and Server 2016 or later (v1.8)' template, published by VMware, available from the interface.
 
+### Comparing W10 (21H1) to W11
+
+While comparing the OSOT analysis reports from an updated Windows 10 (21H1) i saw some differences.
+
+| Setting | Expected result | Actual result W10 | W11 |
+| --- | --- | --- | --- | 
+| Turn off hard disk after | 1 | N.A | 2 | 
+| Disable Setup Cleanup Task | Disabled | Disabled | Enabled |
+| Mobile Broadband Accounts - MNO Metadata Parser | Disabled | Enabled | Disabled |
+| Background Intelligent Transfer Service | Disabled | Manual , Stopped | Auto , Running |
+| Diagnostic Service Host | Disabled | Manual , Running | Manual , Stopped |
+| Diagnostic System Host | Disabled | Manual , Running | Manual , Stopped |
+| Payments and NFC/SE Manager Service | Disabled | Manual , Running | Manual , Stopped |
+| Program Compatibility Assistant Service | Disabled | Manual , Running | Auto , Running |
+| SSDP Discovery | Disabled | Manual , Stopped | Manual , Running |
+| Show search icon in taskbar - Current User. | 1 | N.A | 1 |
 
 ### Citrix Optimizer
 
