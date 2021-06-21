@@ -3,7 +3,7 @@ layout: post
 title: Windows 11 - sneak preview
 date: 2021-06-17 13:37:00 +0100
 description: Windows 11 sneak preview # Add post description (optional)
-img: windows-11-sneak-preview-00.png # Add image post (optional)
+img: windows-11-sneak-preview.png # Add image post (optional)
 tags: [Windows, Windows 11, W11] # add tag
 ---
 # "Windows 10 is the last version of windows...", ohh sure...
