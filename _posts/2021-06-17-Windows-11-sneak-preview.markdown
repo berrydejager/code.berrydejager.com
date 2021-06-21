@@ -10,7 +10,9 @@ tags: [Windows, Windows 11, W11] # add tag
 
 You might recall Satya Nadella, CEO and chairm,an of Microsoft, saying "Windows 10 is the last version of Windows". He didn't mention that it will be the final version of Windows that Microsoft will produce. The next generation of Windows is about to be revealed at the [#MicrosoftEvent](https://www.microsoft.com/en-us/windows/event) on the 24th of June 2021 at 11:00  Eastern Time. Click [here](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWFdr0) for the reminder.
 
-Verdict: As far as i can see it's a little more than just dressing up the Windows 10 interface visually.
+The 
+
+Verdict: As far as i can see it's a little more than just dressing up the Windows 10 interface visually. The interface of the operation system needs to compete with itself and other OS's to stay relevant in a designers world and at the same time it needs to be enticing for the end-user.
 
 ## Brief history
 
