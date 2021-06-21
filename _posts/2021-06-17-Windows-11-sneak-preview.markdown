@@ -115,9 +115,9 @@ For applying OSOT to Windows 11 we need a specific Windows 11 template, which is
 
 ### Comparing W10 (21H1) to W11
 
-While comparing the OSOT analysis reports from an updated Windows 10 (21H1) i saw some differences.
+While comparing the OSOT analysis reports from an updated Windows 10 (21H1) against the Windows 11 Dev release I noticed some differences.
 
-| Setting | Expected result | Actual result W10 | W11 |
+| Setting | Expected result | Windows 10 (21H1) | Windows 11 (Dev) |
 | --- | --- | --- | --- | 
 | Turn off hard disk after | 1 | N.A | 2 | 
 | Disable Setup Cleanup Task | Disabled | Disabled | Enabled |
