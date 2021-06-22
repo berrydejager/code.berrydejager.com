@@ -102,7 +102,7 @@ The taskbar/start menu is still able to move to it's old place by setting the "T
 
 Besides the taskbar the start menu also has changed.
 
-When the changes of the start menu can't seem to fit in your workflow you can still revert to the Windows 10 menu style. A little registry tweak will help you out.
+When the changes of the start menu can't seem to fit in your workflow you can still revert to the Windows 10 menu style (a.k.a. [Classic mode](/assets/img/Window_11_sneak_preview_img11.png){:target="_blank"}. A little registry tweak will help you out.
 
 `HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced`
 
