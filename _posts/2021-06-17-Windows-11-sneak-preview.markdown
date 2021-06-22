@@ -8,7 +8,7 @@ tags: [Windows, Windows 11, W11] # add tag
 ---
 # "Windows 10 is the last version of Windows...", ohh sure...
 
-You might recall Satya Nadella, CEO and chairman of Microsoft, saying "Windows 10 is the last version of Windows". He didn't mention that it will be the final version of Windows that Microsoft will produce.
+You might recall ~~Satya Nadella, CEO and chairman at Microsoft,~~ Jerry Nixon, developer evangelist at Microsoft, saying "Windows 10 is the last version of Windows". He didn't mention that it will be the final version of Windows that Microsoft will produce.
 
 The next generation of Windows is about to be revealed at the [#MicrosoftEvent](https://www.microsoft.com/en-us/windows/event) on the 24th of June 2021 at 11:00  Eastern Time. Click [here](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWFdr0) for the reminder.
 
@@ -18,7 +18,7 @@ The verdict: As far as i can see it's a little more than just dressing up the Wi
 
 [![](/assets/img/Window_11_sneak_preview_img10_t.jpg)](/assets/img/Window_11_sneak_preview_img10.png){:target="_blank"}
 
-Having this said the VMware and Citrix OS optimalisation tools show some minor differences, see details below. To me it seems that the VMWare OSOT tool is more services focussed and Citrix Optimizer is more application oriented. Finding the right balance is just a matter of preference and trail and error.
+Having this said the VMware and Citrix OS optimalisation tools show some minor differences, see details below. To me it seems that the VMWare OSOT tool is more services focussed and Citrix Optimizer is more application oriented. Finding the right balance is just a matter of preference and trial and error.
 
 ## Brief history
 
@@ -47,13 +47,13 @@ Looking at the release cycle for the Windows Operation System, you will notice t
 
 ## Installing Windows 11
 
-The manual installing procedure is very similar to the Windows 10 procedure, however Windows 11 sports a more modern look, shows the OS-type date modified at "30th May 2021" and the license is updated in "June 2021". It seems that this Windows 11 was already for some while in the pipeline. 
+The manual installing procedure is very similar to the Windows 10 procedure, however Windows 11 sports a more modern look, shows the OS-type date modified at "30th May 2021" and the license is updated in "June 2021". It seems that this Windows 11 was already in the pipeline for some while. 
 
 [![](/assets/img/Window_11_sneak_preview_img00_t.jpg)](/assets/img/Window_11_sneak_preview_img00.png){:target="_blank"} [![](/assets/img/Window_11_sneak_preview_img01_t.jpg)](/assets/img/Window_11_sneak_preview_img01.png){:target="_blank"}
 
 ### Limiting experience
 
-The "limited experience" offering, which is great for experimenting with the OS, is now hidden away under "sign-in options" during the installation phase.
+The "limited experience" offering, which is great for experimenting with the OS, is now hidden under "sign-in options" during the installation phase.
 
 [![](/assets/img/Window_11_sneak_preview_img04_t.jpg)](/assets/img/Window_11_sneak_preview_img04.png){:target="_blank"} [![](/assets/img/Window_11_sneak_preview_img05_t.jpg)](/assets/img/Window_11_sneak_preview_img05.png){:target="_blank"} [![](/assets/img/Window_11_sneak_preview_img06_t.jpg)](/assets/img/Window_11_sneak_preview_img06.png){:target="_blank"}
 
