@@ -6,7 +6,7 @@ description: Windows 11 sneak preview # Add post description (optional)
 img: Window_11_sneak_preview.png # Add image post (optional)
 tags: [Windows, Windows 11, W11] # add tag
 ---
-# "Windows 10 is the last version of windows...", ohh sure...
+# "Windows 10 is the last version of Windows...", ohh sure...
 
 You might recall Satya Nadella, CEO and chairman of Microsoft, saying "Windows 10 is the last version of Windows". He didn't mention that it will be the final version of Windows that Microsoft will produce.
 
