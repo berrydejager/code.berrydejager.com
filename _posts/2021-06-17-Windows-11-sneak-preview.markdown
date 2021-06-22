@@ -102,7 +102,7 @@ The taskbar/start menu is still able to move to it's old place by setting the "T
 
 Besides the taskbar the start menu also has changed.
 
-When the changes of the start menu can't seem to fit in your workflow you can still revert to the Windows 10 menu style. A little registry tweak does the trick for you.
+When the changes of the start menu can't seem to fit in your workflow you can still revert to the Windows 10 menu style. A little registry tweak will help you out.
 
 `HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced`
 
@@ -110,7 +110,7 @@ When the changes of the start menu can't seem to fit in your workflow you can st
 | --- | --- | --- |
 | Start_ShowClassicMode | REG_DWORD | 0x00000001 (1) |
 
-As this setting resides in the current user context of the Explorer UI, you need to log off and logon again to see the changes. Restarting the `explorer.exe` will also do the trick.
+As this setting resides in the current user context of the Explorer UI, you need to log-off and log-on again to see the changes. Restarting the `explorer.exe` will also do the trick.
 
 ## Windows OS optimisation using industry standard tooling
 
@@ -118,7 +118,7 @@ As this setting resides in the current user context of the Explorer UI, you need
 
 The [VMware OS Optimization Tool](https://flings.vmware.com/vmware-os-optimization-tool) helps in preparing and optimizing Windows 10 and Windows Server 2019, 2016 systems for use with VMware Horizon. For Windows 7, 8.1, and Server 2012, 2012 R2, an older version (b1130) of the OS Optimization Tool is available for download.
 
-At a high level, the process of creating a golden image VM consists of the following steps. A a step by step walk-through of the complete process, is given in the [Creating an Optimized Windows Image for a VMware Horizon Virtual Desktop](https://techzone.vmware.com/creating-optimized-windows-image-vmware-horizon-virtual-desktop) guide.
+At a high level, the process of creating a golden image VM consists of a few steps. A a step by step walk-through of the complete process, is given in the [Creating an Optimized Windows Image for a VMware Horizon Virtual Desktop](https://techzone.vmware.com/creating-optimized-windows-image-vmware-horizon-virtual-desktop) guide.
 
 #### Applying OSOT
 
@@ -128,7 +128,7 @@ For applying OSOT to Windows 11 you need a specific Windows 11 template, which i
 
 #### Comparing OSOT results: Windows 10 (21H1) against Windows 11 (Dev)
 
-While comparing the OSOT analysis reports from an updated Windows 10 (21H1) against the Windows 11 Dev release I noticed some differences.
+While comparing the OSOT analysis reports from an updated Windows 10 (21H1) against the Windows 11 Dev release, I noticed some differences.
 
 | Setting in OSOT | Expected result | Windows 10 (21H1) | Windows 11 (Dev) |
 | --- | --- | --- | --- | 
