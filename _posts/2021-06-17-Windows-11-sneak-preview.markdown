@@ -43,7 +43,7 @@ Looking at the release cycle for the Windows Operation System, you will notice t
 | 2009 | Windows 7 |
 | 2012 | Windows 8 |
 | 2015 | Windows 10 |
-| 2020 | Windows 11 | 
+| 2021 | Windows 11 | 
 
 ## Installing Windows 11
 
